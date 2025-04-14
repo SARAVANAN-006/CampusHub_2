@@ -22,7 +22,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
             },
           }}
         />
-        <SplashCursor />
         <Aurora />
         {children}
       </ThemeProvider>

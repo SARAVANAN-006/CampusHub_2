@@ -155,7 +155,7 @@ export default function LoginPage() {
               Login to CampusHub
             </h1>
             <p className="text-center text-sm text-zinc-600 dark:text-zinc-400 mb-6">
-              Don&apos;t have an account? <a className="text-indigo-600 hover:underline cursor-pointer">Sign Up</a>
+              Don't have an account? <a href="/signup" className="text-indigo-600 hover:underline cursor-pointer">Sign up</a>
             </p>
 
             <div className="space-y-4">
@@ -211,7 +211,7 @@ export default function LoginPage() {
                 <div className="flex items-center gap-2 text-zinc-800 dark:text-zinc-400">
                   <CustomCheckbox checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} label="Remember me" />
                 </div>
-                <a className="text-indigo-600 hover:underline cursor-pointer">Forgot password?</a>
+                <a href="/forgot-password" className="text-indigo-600 hover:underline cursor-pointer">Forgot password?</a>
               </div>
 
               {/* Login Button (Credential logic can be added later) */}

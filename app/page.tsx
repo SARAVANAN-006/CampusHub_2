@@ -3,6 +3,7 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import EventCard from '@/components/EventCard'
+import SplashCursor from '@/components/SplashCursor'
 
 const events = [
   {
@@ -33,12 +34,14 @@ const events = [
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-white transition-colors duration-300">
-      <Header />
+    <>
+      <SplashCursor />
+      <div className="bg-white dark:bg-zinc-950 text-zinc-900 dark:text-white transition-colors duration-300">
+        <Header />
 
       <main className="max-w-7xl mx-auto px-4 py-12">
         <section className="text-center mb-20">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl font-bold mb-4">
             Discover Events & Hackathons on CampusHub 🎓
           </h1>
           <p className="text-lg text-zinc-600 dark:text-zinc-300">
@@ -55,5 +58,6 @@ export default function Home() {
 
       <Footer />
     </div>
+    </>
   )
 }

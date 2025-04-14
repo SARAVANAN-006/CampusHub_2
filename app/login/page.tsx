@@ -209,7 +209,7 @@ export default function LoginPage() {
               {/* Remember me */}
               <div className="flex justify-between items-center text-sm text-zinc-500 dark:text-zinc-400 px-1">
                 <div className="flex items-center gap-2 text-zinc-800 dark:text-zinc-400">
-                  <CustomCheckbox checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} label="Remember me" />
+                  <CustomCheckbox checked={rememberMe} onChange={() => setRememberMe(!rememberMe)} label={<span className="text-black dark:text-white">Remember me</span>} />
                 </div>
                 <a href="/forgot-password" className="text-indigo-600 hover:underline cursor-pointer">Forgot password?</a>
               </div>

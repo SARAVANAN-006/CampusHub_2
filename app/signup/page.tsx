@@ -160,7 +160,7 @@ export default function SignupPage() {
               )}
             </div>
             <div className="flex items-center gap-2 text-zinc-800 dark:text-zinc-400">
-              <CustomCheckbox checked={agreeTerms} onChange={() => setAgreeTerms(!agreeTerms)} label={"I agree to the terms & conditions"} />
+              <CustomCheckbox checked={agreeTerms} onChange={() => setAgreeTerms(!agreeTerms)} label={<span className="text-black dark:text-white">I agree to the terms & conditions</span>} />
             </div>
             <button
               type="submit"

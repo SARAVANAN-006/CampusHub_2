@@ -2,9 +2,10 @@
 'use client'
 
 import { InputHTMLAttributes } from 'react'
+import { ReactNode } from 'react';
 
 interface CustomCheckboxProps extends InputHTMLAttributes<HTMLInputElement> {
-  label: string
+  label: ReactNode;
 }
 
 export default function CustomCheckbox({ label, ...props }: CustomCheckboxProps) {
@@ -27,7 +28,7 @@ export default function CustomCheckbox({ label, ...props }: CustomCheckboxProps)
           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
         </svg>
       </div>
-      <span className="text-sm text-white">{label}</span>
+      <span className="text-sm">{label}</span>
     </label>
   )
 }

@@ -82,15 +82,6 @@ GITHUB_CLIENT_SECRET=your-github-client-secret
 
 FACEBOOK_CLIENT_ID=your-facebook-client-id
 FACEBOOK_CLIENT_SECRET=your-facebook-client-secret
-
-AZURE_AD_CLIENT_ID=your-microsoft-client-id
-AZURE_AD_CLIENT_SECRET=your-microsoft-client-secret
-AZURE_AD_TENANT_ID=common
-
-APPLE_CLIENT_ID=com.your.bundle.id
-APPLE_TEAM_ID=your-team-id
-APPLE_KEY_ID=your-key-id
-APPLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_KEY_HERE\n-----END PRIVATE KEY-----"
 ```
 
 > ✅ Never commit this file to Git! It’s already `.gitignore`d.
@@ -151,11 +142,3 @@ Built with ❤️ by [@Sudarsanam-R](https://github.com/Sudarsanam-R)
 ```
 
 ---
-
-Let me know if you'd like:
-
-- A `LICENSE` file generated for MIT  
-- An animated project preview screenshot or demo GIF  
-- Deployment badges for staging/preview branches
-
-Happy shipping! 🚀

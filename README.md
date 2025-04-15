@@ -139,6 +139,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Author
 
 Built with ❤️ by [@Sudarsanam-R](https://github.com/Sudarsanam-R)
-```
 
----
